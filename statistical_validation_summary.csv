@@ -1,0 +1,14 @@
+Metric,Value
+Number of subjects,15.0
+Mean RMS slope,0.10352735093747538
+Mean MDF slope,-0.06061338171632285
+RMS one-sided t-test p,3.930598937867697e-06
+MDF one-sided t-test p,2.153657996855652e-06
+RMS Cohen d,1.7701452361149341
+MDF Cohen d,-1.868683320280548
+RMS positive subjects (%),100.0
+MDF negative subjects (%),100.0
+Pearson r,-0.2712877964330584
+Pearson p,0.32805015915884217
+Spearman rho,0.13214285714285715
+Spearman p,0.6387442188840664
