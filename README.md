@@ -282,10 +282,14 @@ Consistency of the expected RMS↑ / MDF↓ fatigue direction across subjects an
 ```bash
 git clone https://github.com/taneshasharma01-tech/semg-fatigue-analysis.git
 cd semg-fatigue-analysis
+```
+
 ### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
 ### 3. Run the analysis
 
 Run the main analysis scripts in the following order:
@@ -294,6 +298,8 @@ Run the main analysis scripts in the following order:
 python emg_analysis.py
 python advanced_fatigue_analysis.py
 python subject_level_plots.py
+```
+
 ---
 
 ## Repository Structure
@@ -337,3 +343,5 @@ sEMG/
 ├── figure9_final_RMS_MDF_slopes.png
 ├── figure10_final_fatigue_ranking.png
 └── figure11_fatigue_direction_consistency.png
+
+
