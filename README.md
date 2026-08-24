@@ -273,7 +273,27 @@ Ranking of subjects according to their final fatigue scores.
 Consistency of the expected RMS↑ / MDF↓ fatigue direction across subjects and channels.
 
 ![Fatigue Direction Consistency](figure11_fatigue_direction_consistency.png)
+---
 
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/taneshasharma01-tech/semg-fatigue-analysis.git
+cd semg-fatigue-analysis
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+### 3. Run the analysis
+
+Run the main analysis scripts in the following order:
+
+```bash
+python emg_analysis.py
+python advanced_fatigue_analysis.py
+python subject_level_plots.py
 ---
 
 ## Repository Structure
