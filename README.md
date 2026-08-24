@@ -1,4 +1,11 @@
 # Surface EMG-Based Muscle Fatigue Analysis
+> Computational analysis of multi-channel surface EMG signals for quantitative assessment of muscle fatigue using RMS and MDF biomarkers.
+
+**Dataset:** 15 subjects × 8 channels  
+**Sampling Rate:** 200 Hz  
+**Epoch Length:** 1 second  
+**Primary Biomarkers:** RMS and MDF  
+**Analysis:** Signal Processing + Regression + Statistical Validation
 
 ## Overview
 
@@ -200,38 +207,76 @@ These findings support the presence of fatigue-related changes in the analyzed s
 
 The repository contains the generated figures from the analysis.
 
-### Figure 1
-RMS and MDF slopes across channels.
 
-### Figure 2
+### Figure 1 — RMS and MDF Slopes
+
+RMS and MDF fatigue-related slopes across channels.
+
+![RMS and MDF Slopes](figure1_RMS_MDF_slopes.png)
+
+
+### Figure 2 — Expected Fatigue Direction
+
 Percentage of channels showing the expected fatigue direction.
 
-### Figure 3
-Effect-size analysis.
+![Expected Fatigue Direction](figure2_expected_fatigue_percentage.png)
 
-### Figure 4
-FDR-corrected p-values.
 
-### Figure 5
-RMS-MDF relationship.
+### Figure 3 — Effect Size Analysis
 
-### Figure 6
-Subject-level fatigue scores.
+Effect-size analysis of fatigue-related changes.
 
-### Figure 7
-Subject-level RMS-MDF relationship.
+![Effect Size Analysis](figure3_effect_sizes.png)
 
-### Figure 8
-Subject-level fatigue direction.
 
-### Figure 9
-Final subject-level RMS and MDF slopes.
+### Figure 4 — FDR-Corrected P-values
 
-### Figure 10
-Final subject-level fatigue ranking.
+False Discovery Rate corrected statistical significance.
 
-### Figure 11
-Consistency of expected fatigue direction.
+![FDR Corrected P-values](figure4_FDR_pvalues.png)
+
+
+### Figure 5 — RMS-MDF Relationship
+
+Relationship between RMS and MDF fatigue-related trends.
+
+![RMS MDF Relationship](figure5_RMS_MDF_relationship.png)
+
+### Figure 6 — Subject-Level Fatigue Scores
+
+Subject-level fatigue scores across the analyzed subjects.
+
+![Subject-Level Fatigue Scores](figure6_subject_fatigue_scores.png)
+
+### Figure 7 — Subject-Level RMS-MDF Relationship
+
+Relationship between subject-level RMS and MDF fatigue-related trends.
+
+![Subject-Level RMS-MDF Relationship](figure7_subject_RMS_MDF_relationship.png)
+
+### Figure 8 — Subject-Level Fatigue Direction
+
+Subject-level consistency of the expected fatigue direction.
+
+![Subject-Level Fatigue Direction](figure8_subject_fatigue_direction.png)
+
+### Figure 9 — Final Subject-Level RMS and MDF Slopes
+
+Final RMS and MDF slopes for each subject.
+
+![Final Subject-Level RMS and MDF Slopes](figure9_final_RMS_MDF_slopes.png)
+
+### Figure 10 — Final Subject-Level Fatigue Ranking
+
+Ranking of subjects according to their final fatigue scores.
+
+![Final Subject-Level Fatigue Ranking](figure10_final_fatigue_ranking.png)
+
+### Figure 11 — Fatigue Direction Consistency
+Consistency of the expected RMS↑ / MDF↓ fatigue direction across subjects and channels.
+
+![Fatigue Direction Consistency](figure11_fatigue_direction_consistency.png)
+
 
 ---
 
