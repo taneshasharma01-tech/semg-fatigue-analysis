@@ -1,22 +1,20 @@
-Surface EMG-Based Muscle Fatigue Analysis
+# Surface EMG-Based Muscle Fatigue Analysis
 
 Computational analysis of multi-channel surface EMG signals for quantitative assessment of muscle fatigue using RMS and MDF biomarkers.
 
-Dataset: 15 subjects × 8 channels
+**Dataset:** 15 subjects × 8 channels
 Sampling Rate: 200 Hz
 Epoch Length: 1 second
 Primary Biomarkers: RMS and MDF
 Analysis: Signal Processing + Regression + Statistical Validation
 
-Overview
+## Overview
 
 This project investigates muscle fatigue using surface electromyography (sEMG) signals.
 
-The analysis focuses on two commonly used sEMG fatigue biomarkers:
+- Root Mean Square (RMS)
+- Median Frequency (MDF)
 
-Root Mean Square (RMS)
-
-Median Frequency (MDF)
 
 During sustained muscle contraction, fatigue is generally associated with an increase in RMS amplitude and a decrease in the frequency-domain characteristics such as MDF.
 
