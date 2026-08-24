@@ -1,5 +1,6 @@
 # Surface EMG-Based Muscle Fatigue Analysis
-> Computational analysis of multi-channel surface EMG signals for quantitative assessment of muscle fatigue using RMS and MDF biomarkers.
+
+Computational analysis of multi-channel surface EMG signals for quantitative assessment of muscle fatigue using RMS and MDF biomarkers.
 
 **Dataset:** 15 subjects × 8 channels  
 **Sampling Rate:** 200 Hz  
@@ -207,13 +208,11 @@ These findings support the presence of fatigue-related changes in the analyzed s
 
 The repository contains the generated figures from the analysis.
 
-
 ### Figure 1 — RMS and MDF Slopes
 
 RMS and MDF fatigue-related slopes across channels.
 
 ![RMS and MDF Slopes](figure1_RMS_MDF_slopes.png)
-
 
 ### Figure 2 — Expected Fatigue Direction
 
@@ -221,20 +220,17 @@ Percentage of channels showing the expected fatigue direction.
 
 ![Expected Fatigue Direction](figure2_expected_fatigue_percentage.png)
 
-
 ### Figure 3 — Effect Size Analysis
 
 Effect-size analysis of fatigue-related changes.
 
 ![Effect Size Analysis](figure3_effect_sizes.png)
 
-
 ### Figure 4 — FDR-Corrected P-values
 
 False Discovery Rate corrected statistical significance.
 
 ![FDR Corrected P-values](figure4_FDR_pvalues.png)
-
 
 ### Figure 5 — RMS-MDF Relationship
 
@@ -273,10 +269,10 @@ Ranking of subjects according to their final fatigue scores.
 ![Final Subject-Level Fatigue Ranking](figure10_final_fatigue_ranking.png)
 
 ### Figure 11 — Fatigue Direction Consistency
+
 Consistency of the expected RMS↑ / MDF↓ fatigue direction across subjects and channels.
 
 ![Fatigue Direction Consistency](figure11_fatigue_direction_consistency.png)
-
 
 ---
 
@@ -284,6 +280,7 @@ Consistency of the expected RMS↑ / MDF↓ fatigue direction across subjects an
 
 ```text
 sEMG/
+
 │
 ├── emg_analysis.py
 ├── group_analysis.py
